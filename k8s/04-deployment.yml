@@ -76,6 +76,7 @@ spec:
       labels:
         app: petclinic
         tier: customers
+        live-debugger: "true"
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/path: "/actuator/prometheus"
@@ -141,6 +142,7 @@ spec:
       labels:
         app: petclinic
         tier: vets
+        live-debugger: "true"
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/path: "/actuator/prometheus"
